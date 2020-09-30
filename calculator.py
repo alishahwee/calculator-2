@@ -34,4 +34,7 @@ while True:
         # Call square function if first token matches 'square'
         if tokens[0] == 'square':
             print(square(int(tokens[1])))
+        # Call cube function if first token matches 'cube'
+        if tokens[0] == 'cube':
+            print(cube(int(tokens[1])))
         
