@@ -10,3 +10,8 @@ while True:
 
     #Tokenize input
     tokens = input_string.split(' ')
+
+    # Let the user quit with 'q'
+    if tokens[0] is 'q':
+        quit()
+    
