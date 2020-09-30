@@ -3,5 +3,7 @@
 from arithmetic import (add, subtract, multiply, divide, square, cube,
                         power, mod, )
 
-
-# Replace this with your code
+# Forever loop
+while True:
+    # Grab input from user
+    input_string = input('Write your equation > ')
