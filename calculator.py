@@ -16,6 +16,9 @@ while True:
         quit()
     # Else, execute the proper math function
     else:
-        # Call pow function if first token matches
+        # Call pow function if first token matches 'pow'
         if tokens[0] == 'pow':
             print(power(int(tokens[1]), int(tokens[2])))
+        # Call add function if first token matches 'add'
+        if tokens[0] == '+':
+            print(add(int(tokens[1]), int(tokens[2])))
