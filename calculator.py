@@ -28,4 +28,7 @@ while True:
          # Call subtract function if first token matches '-'
         if tokens[0] == '-':
             print(subtract(int(tokens[1]), int(tokens[2])))
+        # Call multiply function if first token matches '*'
+        if tokens[0] == '*':
+            print(multiply(int(tokens[1]), int(tokens[2])))
         
