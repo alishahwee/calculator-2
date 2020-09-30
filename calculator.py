@@ -25,4 +25,7 @@ while True:
         # Call divide function if first token matches '/'
         if tokens[0] == '/':
             print(divide(int(tokens[1]), int(tokens[2])))
+         # Call subtract function if first token matches '-'
+        if tokens[0] == '-':
+            print(subtract(int(tokens[1]), int(tokens[2])))
         
