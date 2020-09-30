@@ -31,4 +31,7 @@ while True:
         # Call multiply function if first token matches '*'
         if tokens[0] == '*':
             print(multiply(int(tokens[1]), int(tokens[2])))
+        # Call square function if first token matches 'square'
+        if tokens[0] == 'square':
+            print(square(int(tokens[1])))
         
