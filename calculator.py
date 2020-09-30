@@ -37,4 +37,7 @@ while True:
         # Call cube function if first token matches 'cube'
         if tokens[0] == 'cube':
             print(cube(int(tokens[1])))
-        
+        # Call mod function if first token matches 'mod'
+        if tokens[0] == 'mod':
+            print(mod(int(tokens[1]), int(tokens[2])))
+            
